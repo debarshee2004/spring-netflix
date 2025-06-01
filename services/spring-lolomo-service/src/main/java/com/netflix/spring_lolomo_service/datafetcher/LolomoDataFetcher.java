@@ -7,7 +7,6 @@ import com.netflix.graphql.dgs.DgsQuery;
 import com.netflix.spring_lolomo_service.ShowsRepository;
 import com.netflix.spring_lolomo_service.codegen.types.Show;
 import com.netflix.spring_lolomo_service.codegen.types.ShowCategory;
-import com.netflix.spring_lolomo_service.service.ArtworkService;
 import org.dataloader.DataLoader;
 
 import java.util.List;

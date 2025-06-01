@@ -4,7 +4,6 @@ import com.netflix.graphql.dgs.DgsDataLoader;
 import com.netflix.spring_lolomo_service.service.ArtworkService;
 import org.dataloader.MappedBatchLoader;
 
-import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
 import java.util.concurrent.CompletableFuture;

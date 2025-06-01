@@ -8,6 +8,7 @@ import com.netflix.spring_lolomo_service.ShowsRepository;
 import com.netflix.spring_lolomo_service.codegen.types.Show;
 import com.netflix.spring_lolomo_service.codegen.types.ShowCategory;
 import com.netflix.spring_lolomo_service.service.ArtworkService;
+import org.dataloader.DataLoader;
 
 import java.util.List;
 import java.util.concurrent.CompletableFuture;
@@ -16,11 +17,9 @@ import java.util.concurrent.CompletableFuture;
 public class LolomoDataFetcher {
 
     private final ShowsRepository showsRepository;
-    private final ArtworkService artworkService;
 
-    public LolomoDataFetcher(ShowsRepository showsRepository, ArtworkService artworkService) {
+    public LolomoDataFetcher(ShowsRepository showsRepository) {
         this.showsRepository = showsRepository;
-        this.artworkService = artworkService;
     }
 
     // GraphIQL: http://localhost:8080/graphiql?path=/graphql
@@ -37,8 +36,9 @@ public class LolomoDataFetcher {
     @DgsData(parentType = "Show")
     public CompletableFuture<String> artworkUrl (DgsDataFetchingEnvironment dfe) {
         Show show = dfe.getSourceOrThrow();
-        return CompletableFuture.supplyAsync(
-                () -> artworkService.generateArtwork(show.getTitle())
-        );
+
+        DataLoader<String, String> dataLoader = dfe.getDataLoader(ArtworkDataLoader.class);
+
+        return dataLoader.load(show.getTitle());
     }
 }

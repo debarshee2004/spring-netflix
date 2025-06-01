@@ -1,0 +1,392 @@
+[
+  {
+    "showId": 1,
+    "title": "Stranger Things",
+    "categories": [
+      "Sci-Fi",
+      "Thriller",
+      "Horror"
+    ],
+    "description": "A group of young friends in a small town uncover supernatural forces and government conspiracies when their friend mysteriously disappears.",
+    "type": "SERIES",
+    "numberOfEpisodes": 42,
+    "length": 50
+  },
+  {
+    "showId": 2,
+    "title": "The Crown",
+    "categories": [
+      "Drama",
+      "Historical",
+      "Biography"
+    ],
+    "description": "Chronicles the life of Queen Elizabeth II from the 1940s to modern times, exploring the political rivalries and romance of her reign.",
+    "type": "SERIES",
+    "numberOfEpisodes": 60,
+    "length": 55
+  },
+  {
+    "showId": 3,
+    "title": "Bird Box",
+    "categories": [
+      "Horror",
+      "Thriller",
+      "Drama"
+    ],
+    "description": "A woman and her children make a desperate bid for safety after a mysterious force decimates the world's population.",
+    "type": "MOVIE",
+    "numberOfEpisodes": 1,
+    "length": 124
+  },
+  {
+    "showId": 4,
+    "title": "Money Heist",
+    "categories": [
+      "Crime",
+      "Thriller",
+      "Drama"
+    ],
+    "description": "A criminal mastermind manipulates the police as his team executes a perfect heist at the Royal Mint of Spain.",
+    "type": "SERIES",
+    "numberOfEpisodes": 52,
+    "length": 70
+  },
+  {
+    "showId": 5,
+    "title": "The Witcher",
+    "categories": [
+      "Fantasy",
+      "Adventure",
+      "Drama"
+    ],
+    "description": "Geralt of Rivia, a solitary monster hunter, struggles to find his place in a world where people often prove more wicked than beasts.",
+    "type": "SERIES",
+    "numberOfEpisodes": 24,
+    "length": 60
+  },
+  {
+    "showId": 6,
+    "title": "Extraction",
+    "categories": [
+      "Action",
+      "Thriller",
+      "Crime"
+    ],
+    "description": "A black-market mercenary has nothing to lose when his skills are solicited to rescue the kidnapped son of an imprisoned international crime lord.",
+    "type": "MOVIE",
+    "numberOfEpisodes": 1,
+    "length": 116
+  },
+  {
+    "showId": 7,
+    "title": "The Umbrella Academy",
+    "categories": [
+      "Superhero",
+      "Comedy",
+      "Drama"
+    ],
+    "description": "A dysfunctional family of adopted sibling superheroes reunites to solve the mystery of their father's death and prevent an apocalypse.",
+    "type": "SERIES",
+    "numberOfEpisodes": 36,
+    "length": 50
+  },
+  {
+    "showId": 8,
+    "title": "Ozark",
+    "categories": [
+      "Crime",
+      "Drama",
+      "Thriller"
+    ],
+    "description": "A financial advisor drags his family from Chicago to the Missouri Ozarks, where he must launder money to appease a drug boss.",
+    "type": "SERIES",
+    "numberOfEpisodes": 44,
+    "length": 60
+  },
+  {
+    "showId": 9,
+    "title": "Roma",
+    "categories": [
+      "Drama",
+      "Foreign",
+      "Art House"
+    ],
+    "description": "A year in the life of a middle-class family's maid in Mexico City in the early 1970s.",
+    "type": "MOVIE",
+    "numberOfEpisodes": 1,
+    "length": 135
+  },
+  {
+    "showId": 10,
+    "title": "Bridgerton",
+    "categories": [
+      "Romance",
+      "Drama",
+      "Period"
+    ],
+    "description": "The romantic lives of the Bridgerton siblings in Regency-era England, where love and scandal go hand in hand.",
+    "type": "SERIES",
+    "numberOfEpisodes": 24,
+    "length": 60
+  },
+  {
+    "showId": 11,
+    "title": "The Queen's Gambit",
+    "categories": [
+      "Drama",
+      "Coming of Age",
+      "Sports"
+    ],
+    "description": "An orphaned chess prodigy rises from Kentucky orphanage to international stardom, but struggles with addiction along the way.",
+    "type": "SERIES",
+    "numberOfEpisodes": 7,
+    "length": 60
+  },
+  {
+    "showId": 12,
+    "title": "Enola Holmes",
+    "categories": [
+      "Mystery",
+      "Adventure",
+      "Comedy"
+    ],
+    "description": "The teenage sister of the famous detective Sherlock Holmes uses her sleuthing skills to find her missing mother.",
+    "type": "MOVIE",
+    "numberOfEpisodes": 1,
+    "length": 123
+  },
+  {
+    "showId": 13,
+    "title": "Dark",
+    "categories": [
+      "Sci-Fi",
+      "Mystery",
+      "Thriller"
+    ],
+    "description": "A missing child causes four families to help each other for answers and forces them to confront their past secrets.",
+    "type": "SERIES",
+    "numberOfEpisodes": 26,
+    "length": 60
+  },
+  {
+    "showId": 14,
+    "title": "The Irishman",
+    "categories": [
+      "Crime",
+      "Drama",
+      "Biography"
+    ],
+    "description": "An aging hitman recalls his possible involvement with the slaying of Jimmy Hoffa.",
+    "type": "MOVIE",
+    "numberOfEpisodes": 1,
+    "length": 209
+  },
+  {
+    "showId": 15,
+    "title": "Squid Game",
+    "categories": [
+      "Thriller",
+      "Drama",
+      "Horror"
+    ],
+    "description": "Hundreds of cash-strapped contestants accept an invitation to compete in children's games for a tempting prize, but the stakes are deadly.",
+    "type": "SERIES",
+    "numberOfEpisodes": 9,
+    "length": 55
+  },
+  {
+    "showId": 16,
+    "title": "Red Notice",
+    "categories": [
+      "Action",
+      "Comedy",
+      "Thriller"
+    ],
+    "description": "An Interpol agent tracks the world's most wanted art thief in this globe-trotting caper.",
+    "type": "MOVIE",
+    "numberOfEpisodes": 1,
+    "length": 118
+  },
+  {
+    "showId": 17,
+    "title": "House of Cards",
+    "categories": [
+      "Political",
+      "Drama",
+      "Thriller"
+    ],
+    "description": "A ruthless politician will stop at nothing to conquer Washington, D.C., in this Emmy and Golden Globe-winning political drama.",
+    "type": "SERIES",
+    "numberOfEpisodes": 73,
+    "length": 50
+  },
+  {
+    "showId": 18,
+    "title": "The Social Dilemma",
+    "categories": [
+      "Documentary",
+      "Technology",
+      "Drama"
+    ],
+    "description": "Tech experts sound the alarm on their own creations in this documentary exploring the dangerous human impact of social networking.",
+    "type": "MOVIE",
+    "numberOfEpisodes": 1,
+    "length": 94
+  },
+  {
+    "showId": 19,
+    "title": "Orange Is the New Black",
+    "categories": [
+      "Comedy",
+      "Drama",
+      "Crime"
+    ],
+    "description": "A privileged white woman is sentenced to 15 months in a minimum-security women's prison for her decade-old relationship with a drug dealer.",
+    "type": "SERIES",
+    "numberOfEpisodes": 91,
+    "length": 55
+  },
+  {
+    "showId": 20,
+    "title": "6 Underground",
+    "categories": [
+      "Action",
+      "Thriller",
+      "Adventure"
+    ],
+    "description": "Six individuals from all around the globe, each the very best at what they do, have been chosen not only for their skill, but for a unique desire to delete their pasts to change the future.",
+    "type": "MOVIE",
+    "numberOfEpisodes": 1,
+    "length": 128
+  },
+  {
+    "showId": 21,
+    "title": "Mindhunter",
+    "categories": [
+      "Crime",
+      "Thriller",
+      "Drama"
+    ],
+    "description": "FBI agents in the late 1970s interview imprisoned serial killers to solve open cases, pioneering criminal psychology and profiling techniques.",
+    "type": "SERIES",
+    "numberOfEpisodes": 19,
+    "length": 55
+  },
+  {
+    "showId": 22,
+    "title": "The Trial of the Chicago 7",
+    "categories": [
+      "Drama",
+      "Historical",
+      "Biography"
+    ],
+    "description": "The story of 7 people on trial stemming from various charges surrounding the uprising at the 1968 Democratic National Convention in Chicago, Illinois.",
+    "type": "MOVIE",
+    "numberOfEpisodes": 1,
+    "length": 129
+  },
+  {
+    "showId": 23,
+    "title": "Black Mirror",
+    "categories": [
+      "Sci-Fi",
+      "Anthology",
+      "Thriller"
+    ],
+    "description": "An anthology series exploring a twisted, high-tech multiverse where humanity's greatest innovations and darkest instincts collide.",
+    "type": "SERIES",
+    "numberOfEpisodes": 27,
+    "length": 60
+  },
+  {
+    "showId": 24,
+    "title": "Marriage Story",
+    "categories": [
+      "Drama",
+      "Romance",
+      "Comedy"
+    ],
+    "description": "A stage director and his actor wife struggle through a grueling, coast-to-coast divorce that pushes them to their personal and creative extremes.",
+    "type": "MOVIE",
+    "numberOfEpisodes": 1,
+    "length": 137
+  },
+  {
+    "showId": 25,
+    "title": "Cobra Kai",
+    "categories": [
+      "Action",
+      "Comedy",
+      "Drama"
+    ],
+    "description": "Decades after the tournament that changed their lives, the rivalry between Johnny and Daniel reignites in this sequel to the Karate Kid films.",
+    "type": "SERIES",
+    "numberOfEpisodes": 60,
+    "length": 30
+  },
+  {
+    "showId": 26,
+    "title": "I Am Mother",
+    "categories": [
+      "Sci-Fi",
+      "Thriller",
+      "Drama"
+    ],
+    "description": "A teenage girl is raised underground by a robot mother designed to repopulate the earth following an extinction event.",
+    "type": "MOVIE",
+    "numberOfEpisodes": 1,
+    "length": 113
+  },
+  {
+    "showId": 27,
+    "title": "Narcos",
+    "categories": [
+      "Crime",
+      "Biography",
+      "Drama"
+    ],
+    "description": "The true story of Colombia's infamously violent and powerful drug cartels fuels this gritty crime drama series.",
+    "type": "SERIES",
+    "numberOfEpisodes": 30,
+    "length": 50
+  },
+  {
+    "showId": 28,
+    "title": "The Kissing Booth",
+    "categories": [
+      "Romance",
+      "Comedy",
+      "Teen"
+    ],
+    "description": "A high school student is forced to confront her secret crush when she gets roped into running her school's kissing booth.",
+    "type": "MOVIE",
+    "numberOfEpisodes": 1,
+    "length": 105
+  },
+  {
+    "showId": 29,
+    "title": "The Haunting of Hill House",
+    "categories": [
+      "Horror",
+      "Drama",
+      "Mystery"
+    ],
+    "description": "Flashing between past and present, a fractured family confronts haunting memories of their old home and the terrifying events that drove them from it.",
+    "type": "SERIES",
+    "numberOfEpisodes": 10,
+    "length": 55
+  },
+  {
+    "showId": 30,
+    "title": "Okja",
+    "categories": [
+      "Adventure",
+      "Drama",
+      "Family"
+    ],
+    "description": "A young girl risks everything to prevent a powerful, multinational company from kidnapping her best friend - a massive animal named Okja.",
+    "type": "MOVIE",
+    "numberOfEpisodes": 1,
+    "length": 120
+  }
+]

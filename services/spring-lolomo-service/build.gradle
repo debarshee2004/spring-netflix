@@ -37,7 +37,7 @@ dependencyManagement {
 }
 
 generateJava {
-	schemaPaths = ["${projectDir}/src/main/resources/schemas"]
+	schemaPaths = ["${projectDir}/src/main/resources/schema"]
 	packageName = 'com.netflix.spring_lolomo_service.codegen'
 	generateClient = true
 }

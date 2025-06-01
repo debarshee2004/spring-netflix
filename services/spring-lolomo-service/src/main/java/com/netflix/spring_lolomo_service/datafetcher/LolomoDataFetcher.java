@@ -1,10 +1,8 @@
 package com.netflix.spring_lolomo_service.datafetcher;
 
-import com.netflix.graphql.dgs.DgsComponent;
-import com.netflix.graphql.dgs.DgsData;
-import com.netflix.graphql.dgs.DgsDataFetchingEnvironment;
-import com.netflix.graphql.dgs.DgsQuery;
+import com.netflix.graphql.dgs.*;
 import com.netflix.spring_lolomo_service.ShowsRepository;
+import com.netflix.spring_lolomo_service.codegen.types.SearchInput;
 import com.netflix.spring_lolomo_service.codegen.types.Show;
 import com.netflix.spring_lolomo_service.codegen.types.ShowCategory;
 import org.dataloader.DataLoader;
@@ -39,5 +37,16 @@ public class LolomoDataFetcher {
         DataLoader<String, String> dataLoader = dfe.getDataLoader(ArtworkDataLoader.class);
 
         return dataLoader.load(show.getTitle());
+    }
+
+    @DgsQuery
+    public List<Show> search(@InputArgument SearchInput filter) {
+
+        return showsRepository.allShows().stream().filter(
+                s -> s.getTitle().toLowerCase().startsWith(
+                        filter.getTitle().toLowerCase()
+                )
+        ).toList();
+
     }
 }

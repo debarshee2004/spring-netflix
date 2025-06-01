@@ -10,6 +10,7 @@ import com.netflix.spring_lolomo_service.codegen.types.ShowCategory;
 import com.netflix.spring_lolomo_service.service.ArtworkService;
 
 import java.util.List;
+import java.util.concurrent.CompletableFuture;
 
 @DgsComponent
 public class LolomoDataFetcher {
@@ -34,8 +35,10 @@ public class LolomoDataFetcher {
     }
 
     @DgsData(parentType = "Show")
-    public String artworkUrl (DgsDataFetchingEnvironment dfe) {
+    public CompletableFuture<String> artworkUrl (DgsDataFetchingEnvironment dfe) {
         Show show = dfe.getSourceOrThrow();
-        return artworkService.generateArtwork(show.getTitle());
+        return CompletableFuture.supplyAsync(
+                () -> artworkService.generateArtwork(show.getTitle())
+        );
     }
 }

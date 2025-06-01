@@ -1,4 +1,4 @@
-package com.netflix.spring_lolomo_service;
+package com.netflix.spring_lolomo_service.repository;
 
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;

@@ -2,7 +2,7 @@ package com.netflix.spring_lolomo_service.datafetcher;
 
 import com.netflix.graphql.dgs.DgsQueryExecutor;
 import com.netflix.graphql.dgs.test.EnableDgsTest;
-import com.netflix.spring_lolomo_service.ShowsRepository;
+import com.netflix.spring_lolomo_service.repository.ShowsRepository;
 import org.intellij.lang.annotations.Language;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;

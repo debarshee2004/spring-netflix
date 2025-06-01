@@ -1,7 +1,7 @@
 package com.netflix.spring_lolomo_service.datafetcher;
 
 import com.netflix.graphql.dgs.*;
-import com.netflix.spring_lolomo_service.ShowsRepository;
+import com.netflix.spring_lolomo_service.repository.ShowsRepository;
 import com.netflix.spring_lolomo_service.codegen.types.SearchInput;
 import com.netflix.spring_lolomo_service.codegen.types.Show;
 import com.netflix.spring_lolomo_service.codegen.types.ShowCategory;
